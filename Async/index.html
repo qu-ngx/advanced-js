@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    // Follow by order: !Async
+    console.log(1);
+    console.log(2);
+
+    //Async: First come first serve
+
+    setTimeout(() => {
+        console.log('run after 3s');
+    }, 3000)
+    
+    console.log(3);
+    console.log(4);
+    console.log(5);
+
+
+</script>
+<body>
+    <h1> Hello Quang Nguyen </h1>
+</body>
+</html>
