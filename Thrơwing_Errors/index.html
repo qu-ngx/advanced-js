@@ -18,6 +18,9 @@
             let data = await response.json();
             return data;
         }
+        catch (e) {
+            console.log('>>> check catch error: ', e.message);
+        }
 }
 
     console.log(getNewToDo());
